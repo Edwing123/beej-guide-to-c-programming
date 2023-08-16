@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+void display_size(char *label, size_t size);
+
 int main(void)
 {
   // Arithmetic operators.
@@ -167,5 +169,28 @@ int main(void)
 
     printf("Can join to the community? %s.\n", can_join ? "Yes" : "No");
   }
+
+  if (true) {
+    // The sizeof operator.
+    // This operator tells you the size in bytes
+    // that a variable or data type uses in memory.
+    //
+    // The operator resolves to a unsigned integer
+    // of type size_t. This special data type is used
+    // to represent unsigned integers that represent counts.
+    int age = 22;
+    bool is_young = false;
+    float score = 7.8;
+
+    display_size("int", sizeof(age));
+    display_size("boolean", sizeof(is_young));
+    display_size("float", sizeof(score));
+    display_size("size_t", sizeof(size_t));
+  }
+}
+
+void display_size(char *label, size_t size)
+{
+  printf("The size of %s is %zu.\n", label, size);
 }
 
