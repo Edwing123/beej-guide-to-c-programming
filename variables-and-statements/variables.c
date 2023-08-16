@@ -40,7 +40,7 @@ int main(void)
 
   // Now let's display the values those variables store to the screen.
   printf("i is %d, and f is %f, and s is %s.\n", i, f, s);
-  
+  printf("The null value of the string = %d.\n", s[7]);
   printf("Hello variables!\n");
 }
 
