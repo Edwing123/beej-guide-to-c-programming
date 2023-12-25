@@ -46,8 +46,9 @@ int main(void)
         -----------------
     */
 
-    char * first;
-    char * second;
+    // The asterisk goes before (as a prefix) the variable
+    // that is to be defined as a pointer.    
+    char *first, *second;
 
     char initials[4];
     initials[1] = '\0';
