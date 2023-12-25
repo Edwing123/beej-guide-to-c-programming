@@ -6,4 +6,3 @@ int main(void)
 {
   printf("Hello World!\n"); // The interesting work is done here.
 }
-

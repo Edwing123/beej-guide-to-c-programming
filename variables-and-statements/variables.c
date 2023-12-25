@@ -43,4 +43,3 @@ int main(void)
   printf("The null value of the string = %d.\n", s[7]);
   printf("Hello variables!\n");
 }
-

@@ -193,4 +193,3 @@ void display_size(char *label, size_t size)
 {
   printf("The size of %s is %zu.\n", label, size);
 }
-

@@ -25,4 +25,3 @@ int main(void)
     // printf("Go is cool.\n");
   }
 }
-

@@ -75,4 +75,3 @@ int main(void)
     printf("It tooks %zu iterations to find 16.\n", count);
   }
 }
-
