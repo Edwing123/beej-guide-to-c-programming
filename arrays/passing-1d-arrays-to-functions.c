@@ -24,7 +24,7 @@ void times3(int arr[], size_t len)
 	}
 }
 
-// An array using the array syntax (we don't specify a size).
+// An array using the array syntax (we specify a size).
 // According to the C11 spec, the size doesn't matter to the compiler,
 // it only has to be greater than zero.
 //
