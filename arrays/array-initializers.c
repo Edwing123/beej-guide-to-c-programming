@@ -63,7 +63,7 @@ int main(void)
 		printf("\n");
 	}
 
-// Waht is this?
+// What is this?
 #define BUFFER_SIZE 10
 
 	// With array initializers we can set values at specific indexes.
