@@ -31,7 +31,6 @@ int main(void)
 
 	// int more_points[5];
 
-	// The remaining elements will be set to zero.
 	// for (size_t i = 0; i < 5; i++)
 	// {
 	// 	printf("i = %d.\n", more_points[i]);
