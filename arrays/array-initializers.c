@@ -51,7 +51,7 @@ int main(void)
 	// Here we say that the first element at index 0 is set to zero,
 	// then the compiler will set the remaining elements to zero.
 	//
-	// Nice! we get a buffer with all elements set to zero.element
+	// Nice! we get a buffer with all elements set to zero.
 
 	for (size_t i = 0; i < (64 - 8); i += 8)
 	{
