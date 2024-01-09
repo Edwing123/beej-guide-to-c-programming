@@ -1,0 +1,4 @@
+Wizard 89 1000
+Archer 60 870
+Warrior 50 877
+Queen 100 4500
